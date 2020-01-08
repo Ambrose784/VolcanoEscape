@@ -9,6 +9,15 @@ public class PowerUps : MonoBehaviour
     public float JumpSpeedlost = 10;
     public float ShootDelay = 1.0f;
 
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == ("Speed"))
+        {
+            
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
