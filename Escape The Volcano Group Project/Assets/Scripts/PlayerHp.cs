@@ -9,7 +9,7 @@ public class PlayerHp : MonoBehaviour
     public int health = 10;
     public Text healthText;
     public Slider healthSlider;
-    public int lives = 10;
+    public int lives = 1;
 
     private void Start()
     {
@@ -29,11 +29,15 @@ public class PlayerHp : MonoBehaviour
             healthSlider.value = health;
             if (health < 4)
             {
-                if (health < 4)
+                if (lives > 0)
                 {
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                     SceneManager.LoadScene("Lose");
-                    Player
+                    PlayerPrefs.SetInt("Lives", lives - 1);
+                }
+                else
+                {
+                    SceneManager.LoadScene("GameOver");
                 }
               
             }
@@ -42,7 +46,22 @@ public class PlayerHp : MonoBehaviour
 
         if (collision.gameObject.tag == ("TileDeath"))
         {
-            Destroy(gameObject);
+            health--;
+            healthText.text = "Health: " + health;
+            healthSlider.value = health;
+            if (health < 4)
+            {
+                if (lives > 0)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    SceneManager.LoadScene("Lose");
+                    PlayerPrefs.SetInt("lives", lives - 1);
+                }
+                else
+                {
+                    SceneManager.LoadScene("GameOver");
+                }
+            }
         }
 
         if (collision.gameObject.tag == ("Enemy"))
