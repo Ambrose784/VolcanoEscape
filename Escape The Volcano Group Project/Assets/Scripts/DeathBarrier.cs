@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DeathBarrier : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public Transform Player;
+
+    private void Update()
     {
-        
+        //Transform.position = new Vector3(Player.position.x,
+            Player.position.y, Player.position.z);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
