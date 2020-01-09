@@ -20,7 +20,7 @@ public class PowerUps : MonoBehaviour
             {
                 SpeedGain++;
             }
-            Time.deltaTime
+            
         }
     }
 
