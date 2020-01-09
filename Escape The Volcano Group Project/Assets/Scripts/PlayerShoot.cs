@@ -9,11 +9,7 @@ public class PlayerShoot : MonoBehaviour
     public float bulletLifetime = 1.0f;
     public float shootDelay = 1.0f;
     float timer = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()

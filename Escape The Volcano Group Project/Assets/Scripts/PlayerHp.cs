@@ -16,8 +16,8 @@ public class PlayerHp : MonoBehaviour
         healthText.text = "Health" + health;
         healthSlider.maxValue = health;
         healthSlider.value = health;
-        //PlayerPrefs.SetInt("lives", lives);
-        lives = PlayerPrefs.GetInt("lives");
+        PlayerPrefs.SetInt("lives", lives);
+        lives = PlayerPrefs.GetInt("Lives");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

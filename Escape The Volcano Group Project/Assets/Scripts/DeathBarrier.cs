@@ -1,16 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeathBarrier : MonoBehaviour
 {
+   // {SerializeField } Transform
 
-    public Transform Player;
-
-    private void Update()
-    {
-        //Transform.position = new Vector3(Player.position.x,
-           //Player.position.y, Player.position.z);
-    }
+    
 
 }
