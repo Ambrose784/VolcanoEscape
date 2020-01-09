@@ -8,20 +8,35 @@ public class PowerUps : MonoBehaviour
     public float HealthGain = 3;
     public float JumpSpeedlost = 10;
     public float ShootDelay = 1.0f;
+    public float Damage = 3;
     public int Movespeed;
-    float timer = 0;
+   // float timer = 0;
+    public int health;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == ("Speed"))
         {
-            if (Movespeed < 1.6)
+            if (Movespeed < 10)
             {
                 SpeedGain++;
             }
+        }
+
+        if (collision.gameObject.tag == ("Health"))
+        {
+            if (health < 3)
+            {
+                health++;
+            }
             
         }
+
+        if (collision.gameObject.tag == ("Damage"))
+            {
+                health--;
+            }
     }
 
     // Start is called before the first frame update

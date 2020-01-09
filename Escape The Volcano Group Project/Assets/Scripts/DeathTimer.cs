@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeathTimer : MonoBehaviour
 {
 
-    float Timer = 0;
+    //float Timer = 0;
 
 
 

@@ -45,7 +45,7 @@ public class PlatformerMove : MonoBehaviour
             jumpCount++;
         }
         
-      
+      //slacking
         GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100 * jumpSpeed));
 
     }

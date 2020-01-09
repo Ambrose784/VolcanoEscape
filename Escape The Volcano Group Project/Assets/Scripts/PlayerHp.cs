@@ -9,7 +9,7 @@ public class PlayerHp : MonoBehaviour
     public int health = 10;
     public Text healthText;
     public Slider healthSlider;
-    public int lives = 1;
+    public int lives = 10;
 
     private void Start()
     {
@@ -79,7 +79,7 @@ public class PlayerHp : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("GamerOver");
+                    SceneManager.LoadScene("GameOver");
                 }
                 
 

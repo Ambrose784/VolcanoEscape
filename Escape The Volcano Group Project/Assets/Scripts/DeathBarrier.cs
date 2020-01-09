@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DeathBarrier : MonoBehaviour
 {
-   // {SerializeField } Transform
+   //{SerializeField} Transform spawnpoint
 
     
 
