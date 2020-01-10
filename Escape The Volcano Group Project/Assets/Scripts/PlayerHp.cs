@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class PlayerHp : MonoBehaviour
 {
-    public int health = 10;
+    public int health = 3;
     public Text healthText;
     public Slider healthSlider;
     public int lives = 10;
+    
 
     private void Start()
     {

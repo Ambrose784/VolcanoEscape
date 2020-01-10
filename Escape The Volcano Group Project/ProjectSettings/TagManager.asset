@@ -11,6 +11,7 @@ TagManager:
   - Speed
   - Health
   - portal
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
