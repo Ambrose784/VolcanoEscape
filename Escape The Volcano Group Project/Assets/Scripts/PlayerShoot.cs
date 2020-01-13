@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour
     public float bulletSpeed = 10.0f;
     public float bulletLifetime = 1.0f;
     public float shootDelay = 1.0f;
-    float timer = 0;
+    float timer = 1;
     
 
     // Update is called once per frame
