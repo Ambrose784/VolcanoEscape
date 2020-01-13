@@ -10,7 +10,9 @@ public class EnemyMovement : MonoBehaviour
     public bool _isFacingRight;
     private float _startPos;
     private float _endPos;
-
+    public float moveSpeed;
+    public float jumpCount;
+    public float maxJumps;
     public bool _moveRight = true;
 
 
@@ -27,7 +29,24 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-
+        {
+            float moveX = Input.GetAxis("Horizontal");
+            Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
+            velocity.x = moveSpeed * moveX;
+            GetComponent<Rigidbody2D>().velocity = velocity;
+            //if (Input.GetButtonDown("Jump") && jumpCount < maxJumps) //&& grounded)
+            {
+                
+            }
+           
+            {
+                
+            }
+           
+            {
+                
+            }
+        }
         if (_moveRight)
         {
             enemyRigidBody2D.AddForce(Vector2.right * EnemySpeed);// * Time.deltaTime);
