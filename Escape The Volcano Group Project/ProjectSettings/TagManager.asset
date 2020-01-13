@@ -12,6 +12,7 @@ TagManager:
   - Health
   - portal
   - PlayerBullet
+  - spike
   layers:
   - Default
   - TransparentFX
