@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
-    public float SpeedGain = 10;
+    public float Movespeed = 10;
     public float HealthGain = 3;
     public float JumpSpeedlost = 10;
     public float ShootDelay = 1.0f;
     public float Damage = 3;
-    public int Movespeed;
+    //public int Movespeed;
    // float timer = 0;
     public int health;
 
@@ -20,7 +20,7 @@ public class PowerUps : MonoBehaviour
         {
             if (Movespeed < 10)
             {
-                SpeedGain++;
+                Movespeed++;
             }
         }
 

@@ -25,44 +25,12 @@ public class PlayerHp : MonoBehaviour
     {
         if (collision.gameObject.tag == ("DeathBarrier"))
         {
-            health--;
-            healthText.text = "Health: " + health;
-            healthSlider.value = health;
-            if (health < 4)
-            {
-                if (lives > 0)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                    SceneManager.LoadScene("Lose");
-                    PlayerPrefs.SetInt("Lives", lives - 1);
-                }
-                else
-                {
-                    SceneManager.LoadScene("GameOver");
-                }
-              
-            }
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         if (collision.gameObject.tag == ("TileDeath"))
         {
-            health--;
-            healthText.text = "Health: " + health;
-            healthSlider.value = health;
-            if (health < 4)
-            {
-                if (lives > 0)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                    SceneManager.LoadScene("Lose");
-                    PlayerPrefs.SetInt("lives", lives - 1);
-                }
-                else
-                {
-                    SceneManager.LoadScene("GameOver");
-                }
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         if (collision.gameObject.tag == ("Enemy"))
