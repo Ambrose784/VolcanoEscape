@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class NewEnemyMovement : MonoBehaviour
 {
     Rigidbody2D enemyRigidBody2D;
     public int UnitsToMove = 5;
@@ -11,11 +11,16 @@ public class EnemyMovement : MonoBehaviour
     private float _startPos;
     private float _endPos;
     public float moveSpeed;
-    public float jumpCount;
-    public float maxJumps;
     public bool _moveRight = true;
+    public bool grounded;
+    public float velocity, x, y;
+   
+    Animator anim;
 
-
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     // Use this for initialization
     public void Awake()
     {
@@ -30,22 +35,15 @@ public class EnemyMovement : MonoBehaviour
     public void Update()
     {
         {
-            float moveX = Input.GetAxis("Horizontal");
-            Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
-            velocity.x = moveSpeed * moveX;
-            GetComponent<Rigidbody2D>().velocity = velocity;
+            enemyRigidBody2D = GetComponent<Rigidbody2D>();
+            _startPos = transform.position.x;
+            _endPos = _startPos + UnitsToMove;
+            _isFacingRight = transform.localScale.x > 0;
             //if (Input.GetButtonDown("Jump") && jumpCount < maxJumps) //&& grounded)
-            {
-                
-            }
+            anim.SetBool("grounded", grounded);
+            //anim.SetFloat("x", velocity.x);
+        //anim.SetFloat("y", velocity.y);
            
-            {
-                
-            }
-           
-            {
-                
-            }
         }
         if (_moveRight)
         {
@@ -65,7 +63,7 @@ public class EnemyMovement : MonoBehaviour
         }
         if (enemyRigidBody2D.position.x <= _startPos)
             _moveRight = true;
-
+        
 
     }
 
@@ -73,5 +71,29 @@ public class EnemyMovement : MonoBehaviour
     {
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         _isFacingRight = transform.localScale.x > 0;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 0 && !collision.isTrigger)
+        {
+            grounded = true;
+            
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 0 && !collision.isTrigger)
+        {
+            grounded = true;
+            
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 0 && !collision.isTrigger)
+        {
+            grounded = false;
+            //jumpCount = 0;
+        }
     }
 }

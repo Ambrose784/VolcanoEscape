@@ -54,5 +54,31 @@ public class PlayerHp : MonoBehaviour
 
             }
         }
+        if (collision.gameObject.tag == ("Health"))
+        {
+            health++;
+            healthText.text = "Health: " + health;
+            healthSlider.value = health;
+        }
+        if (collision.gameObject.tag == ("Damage"))
+        {
+            health--;
+            healthText.text = "Health: " + health;
+            healthSlider.value = health;
+            if (health < 1)
+            {
+                if (lives > 0)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    PlayerPrefs.SetInt("Lives", lives - 1);
+                }
+                else
+                {
+                    SceneManager.LoadScene("GameOver");
+                }
+            }
+        }
     }
+    
+    
 }
