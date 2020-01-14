@@ -6,7 +6,7 @@ public class NewEnemyMovement : MonoBehaviour
 {
     Rigidbody2D enemyRigidBody2D;
     public int UnitsToMove = 5;
-    public float EnemySpeed = 500;
+    public float EnemySpeed = 5;
     public bool _isFacingRight;
     private float _startPos;
     private float _endPos;
@@ -41,7 +41,7 @@ public class NewEnemyMovement : MonoBehaviour
             _isFacingRight = transform.localScale.x > 0;
             //if (Input.GetButtonDown("Jump") && jumpCount < maxJumps) //&& grounded)
             anim.SetBool("grounded", grounded);
-            //anim.SetFloat("x", velocity.x);
+           // anim.SetFloat("x", velocity.x);
         //anim.SetFloat("y", velocity.y);
            
         }
