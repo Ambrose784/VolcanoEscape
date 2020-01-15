@@ -413,8 +413,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.6127472, y: -0.21063232}
-  m_Size: {x: 0.65319824, y: 0.7489376}
+  m_Offset: {x: -0.24443817, y: -0.21063232}
+  m_Size: {x: 2.367569, y: 2.367569}
   m_Direction: 0
 --- !u!4 &250164199
 Transform:
@@ -424,7 +424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250164197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 197.97, y: 0.87, z: -73.09807}
+  m_LocalPosition: {x: 198.56, y: 1.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -592,6 +592,24 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &380202788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5956924228975945917, guid: 9a4ef63cd92826d4397c92886c374eb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 5956924228490846255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &380202789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380202788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4441002040e8b4890f886a9d2418fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &381915904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,12 +3965,12 @@ PrefabInstance:
     - target: {fileID: 5956924228975945915, guid: 9a4ef63cd92826d4397c92886c374eb4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.59
+      value: -62.24
       objectReference: {fileID: 0}
     - target: {fileID: 5956924228975945915, guid: 9a4ef63cd92826d4397c92886c374eb4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 5956924228975945915, guid: 9a4ef63cd92826d4397c92886c374eb4,
         type: 3}
@@ -4009,7 +4027,8 @@ PrefabInstance:
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1316812333}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5956924228975945909, guid: 9a4ef63cd92826d4397c92886c374eb4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9a4ef63cd92826d4397c92886c374eb4, type: 3}
 --- !u!1001 &6937744516560293250
 PrefabInstance:
