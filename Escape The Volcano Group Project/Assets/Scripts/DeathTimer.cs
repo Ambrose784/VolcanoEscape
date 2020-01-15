@@ -4,20 +4,18 @@ using UnityEngine;
 
 public class DeathTimer : MonoBehaviour
 {
+    //float currentTime = 0f;
+    //float startingTime = 10f;
 
-    //float Timer = 0;
-
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+       // currentTime = startingTime;
+    }
+
+    private void Update()
+    {
+       // currentTime += 1 * Time.deltaTime;
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
