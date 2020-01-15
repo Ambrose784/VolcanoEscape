@@ -9,11 +9,11 @@ public class PlayerShoot : MonoBehaviour
     public float bulletLifetime = 1.0f;
     public float shootDelay = 1.0f;
     float timer = 1;
-    
+
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         timer += Time.deltaTime;
         if (Input.GetButton("Fire1") && timer > shootDelay)
         {

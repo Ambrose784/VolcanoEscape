@@ -7,7 +7,7 @@ public class PlayerDeath: MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "vboi" || collision.gameObject.tag == "spike" || collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "vboi" || collision.gameObject.tag == "spike" )//|| collision.gameObject.tag == "Enemy")
          {
          SceneManager.LoadScene(SceneManager.GetActiveScene().name);
          }

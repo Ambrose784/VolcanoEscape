@@ -132,12 +132,12 @@ GameObject:
   - component: {fileID: 9657761}
   - component: {fileID: 9657760}
   - component: {fileID: 9657759}
-  - component: {fileID: 9657763}
   - component: {fileID: 9657758}
   - component: {fileID: 9657757}
   - component: {fileID: 9657756}
   - component: {fileID: 9657755}
   - component: {fileID: 9657754}
+  - component: {fileID: 9657753}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -145,6 +145,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9657753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9657752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4441002040e8b4890f886a9d2418fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9657754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +247,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002886638, y: 0.0008138865}
+  m_Offset: {x: 0.002886638, y: 0.0064041764}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -246,7 +258,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18289879, y: 0.17849907}
+  m_Size: {x: 0.18289879, y: 0.18967965}
   m_EdgeRadius: 0
 --- !u!114 &9657759
 MonoBehaviour:
@@ -263,7 +275,7 @@ MonoBehaviour:
   moveSpeed: 2
   jumpSpeed: 2.5
   jumpCount: 0
-  maxJumps: 7
+  maxJumps: 100
 --- !u!50 &9657760
 Rigidbody2D:
   serializedVersion: 4
@@ -350,18 +362,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9657763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9657752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e4f89e1e4efd544925eedfa79b0dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &366831578
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class DifferentJump : MonoBehaviour
     private float moveInput;
     private Rigidbody2D rb;
 
-    private bool facingRight = true;
+    //private bool facingRight = true;
 
     public bool grounded;
 
