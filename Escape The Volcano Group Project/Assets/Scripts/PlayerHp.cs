@@ -78,6 +78,10 @@ public class PlayerHp : MonoBehaviour
                 }
             }
         }
+        if (collision.gameObject.tag == ("Win"))
+        {
+            SceneManager.LoadScene("Winner");
+        }
     }
     
     

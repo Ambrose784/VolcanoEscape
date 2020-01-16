@@ -65,6 +65,11 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    //Back to Main Menu
+    public void Mainmenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
     //CREDITS ROLL FUNCTION
     void CreditsRoll()
     {
