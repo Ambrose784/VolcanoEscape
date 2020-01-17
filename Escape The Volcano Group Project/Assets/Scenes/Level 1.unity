@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 205920745}
   - component: {fileID: 205920744}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: CloseBackround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 276668421}
   - component: {fileID: 276668420}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 1478218678}
   - component: {fileID: 1478218677}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: ForeGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 1526698966}
   - component: {fileID: 1526698965}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1525,7 +1525,7 @@ GameObject:
   - component: {fileID: 1527389840}
   - component: {fileID: 1527389839}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Far Backround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1879,7 +1879,7 @@ GameObject:
   - component: {fileID: 2012595499}
   - component: {fileID: 2012595498}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Pits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
