@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 9570377}
   - component: {fileID: 9570376}
   - component: {fileID: 9570375}
-  - component: {fileID: 9570374}
   m_Layer: 9
   m_Name: Lava Djin (3)
   m_TagString: Enemy
@@ -141,21 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9570374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9570373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &9570375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -429,7 +413,6 @@ GameObject:
   - component: {fileID: 43779546}
   - component: {fileID: 43779545}
   - component: {fileID: 43779544}
-  - component: {fileID: 43779543}
   m_Layer: 9
   m_Name: Lava Djin (22)
   m_TagString: Enemy
@@ -437,21 +420,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &43779543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43779542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &43779544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -874,7 +842,6 @@ GameObject:
   - component: {fileID: 144342042}
   - component: {fileID: 144342041}
   - component: {fileID: 144342040}
-  - component: {fileID: 144342039}
   m_Layer: 9
   m_Name: Lava Djin (23)
   m_TagString: Enemy
@@ -882,21 +849,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &144342039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144342038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &144342040
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1303,7 +1255,6 @@ GameObject:
   - component: {fileID: 285486453}
   - component: {fileID: 285486452}
   - component: {fileID: 285486451}
-  - component: {fileID: 285486450}
   m_Layer: 9
   m_Name: Lava Djin (16)
   m_TagString: Enemy
@@ -1311,21 +1262,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &285486450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285486449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &285486451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1781,7 +1717,6 @@ GameObject:
   - component: {fileID: 310741445}
   - component: {fileID: 310741444}
   - component: {fileID: 310741443}
-  - component: {fileID: 310741442}
   m_Layer: 9
   m_Name: Lava Djin (12)
   m_TagString: Enemy
@@ -1789,21 +1724,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &310741442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310741441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &310741443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2188,7 +2108,6 @@ GameObject:
   - component: {fileID: 513032307}
   - component: {fileID: 513032306}
   - component: {fileID: 513032305}
-  - component: {fileID: 513032304}
   m_Layer: 9
   m_Name: Lava Djin (7)
   m_TagString: Enemy
@@ -2196,21 +2115,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &513032304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513032303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &513032305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2361,7 +2265,6 @@ GameObject:
   - component: {fileID: 521612846}
   - component: {fileID: 521612845}
   - component: {fileID: 521612844}
-  - component: {fileID: 521612843}
   m_Layer: 9
   m_Name: Lava Djin (14)
   m_TagString: Enemy
@@ -2369,21 +2272,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &521612843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521612842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &521612844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3180,7 +3068,6 @@ GameObject:
   - component: {fileID: 706588209}
   - component: {fileID: 706588208}
   - component: {fileID: 706588207}
-  - component: {fileID: 706588206}
   m_Layer: 9
   m_Name: Lava Djin (5)
   m_TagString: Enemy
@@ -3188,21 +3075,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &706588206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706588205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &706588207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3353,7 +3225,6 @@ GameObject:
   - component: {fileID: 711208166}
   - component: {fileID: 711208165}
   - component: {fileID: 711208164}
-  - component: {fileID: 711208163}
   m_Layer: 9
   m_Name: Lava Djin (19)
   m_TagString: Enemy
@@ -3361,21 +3232,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &711208163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711208162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &711208164
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3990,7 +3846,6 @@ GameObject:
   - component: {fileID: 1091233816}
   - component: {fileID: 1091233815}
   - component: {fileID: 1091233814}
-  - component: {fileID: 1091233813}
   m_Layer: 9
   m_Name: Lava Djin (2)
   m_TagString: Enemy
@@ -3998,21 +3853,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1091233813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091233812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1091233814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4472,7 +4312,6 @@ GameObject:
   - component: {fileID: 1223917747}
   - component: {fileID: 1223917746}
   - component: {fileID: 1223917745}
-  - component: {fileID: 1223917744}
   m_Layer: 9
   m_Name: Lava Djin (18)
   m_TagString: Enemy
@@ -4480,21 +4319,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1223917744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223917743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1223917745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4645,7 +4469,6 @@ GameObject:
   - component: {fileID: 1242944722}
   - component: {fileID: 1242944721}
   - component: {fileID: 1242944720}
-  - component: {fileID: 1242944719}
   m_Layer: 9
   m_Name: Lava Djin (10)
   m_TagString: Enemy
@@ -4653,21 +4476,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1242944719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242944718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1242944720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5294,7 +5102,6 @@ GameObject:
   - component: {fileID: 1380162464}
   - component: {fileID: 1380162463}
   - component: {fileID: 1380162462}
-  - component: {fileID: 1380162461}
   m_Layer: 9
   m_Name: Lava Djin (6)
   m_TagString: Enemy
@@ -5302,21 +5109,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1380162461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380162460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1380162462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5665,12 +5457,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1423680404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
+  m_Script: {fileID: 11500000, guid: a0618e786a3a7bf418ef9011d7322788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
+  moveDir: {x: 0, y: 0}
+  moveSpeed: 0
+  paceDuration: 0
 --- !u!1001 &1438294136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6434,7 +6226,6 @@ GameObject:
   - component: {fileID: 1537933466}
   - component: {fileID: 1537933465}
   - component: {fileID: 1537933464}
-  - component: {fileID: 1537933463}
   m_Layer: 9
   m_Name: Lava Djin (1)
   m_TagString: Enemy
@@ -6442,21 +6233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1537933463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537933462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1537933464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6607,7 +6383,6 @@ GameObject:
   - component: {fileID: 1539746634}
   - component: {fileID: 1539746633}
   - component: {fileID: 1539746632}
-  - component: {fileID: 1539746631}
   m_Layer: 9
   m_Name: Lava Djin (15)
   m_TagString: Enemy
@@ -6615,21 +6390,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1539746631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539746630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1539746632
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6780,7 +6540,6 @@ GameObject:
   - component: {fileID: 1550681570}
   - component: {fileID: 1550681569}
   - component: {fileID: 1550681568}
-  - component: {fileID: 1550681567}
   m_Layer: 9
   m_Name: Lava Djin (13)
   m_TagString: Enemy
@@ -6788,21 +6547,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1550681567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550681566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1550681568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6959,7 +6703,6 @@ GameObject:
   - component: {fileID: 1621425055}
   - component: {fileID: 1621425054}
   - component: {fileID: 1621425053}
-  - component: {fileID: 1621425052}
   m_Layer: 9
   m_Name: Lava Djin (21)
   m_TagString: Enemy
@@ -6967,21 +6710,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1621425052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621425051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1621425053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7206,7 +6934,6 @@ GameObject:
   - component: {fileID: 1639251508}
   - component: {fileID: 1639251507}
   - component: {fileID: 1639251506}
-  - component: {fileID: 1639251505}
   m_Layer: 9
   m_Name: Lava Djin (4)
   m_TagString: Enemy
@@ -7214,21 +6941,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1639251505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639251504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1639251506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7385,7 +7097,6 @@ GameObject:
   - component: {fileID: 1663485651}
   - component: {fileID: 1663485650}
   - component: {fileID: 1663485649}
-  - component: {fileID: 1663485648}
   m_Layer: 9
   m_Name: Lava Djin (9)
   m_TagString: Enemy
@@ -7393,21 +7104,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1663485648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663485647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1663485649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8286,7 +7982,6 @@ GameObject:
   - component: {fileID: 1820663796}
   - component: {fileID: 1820663795}
   - component: {fileID: 1820663794}
-  - component: {fileID: 1820663793}
   m_Layer: 9
   m_Name: Lava Djin (11)
   m_TagString: Enemy
@@ -8294,21 +7989,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1820663793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820663792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1820663794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8605,7 +8285,6 @@ GameObject:
   - component: {fileID: 1975637945}
   - component: {fileID: 1975637944}
   - component: {fileID: 1975637943}
-  - component: {fileID: 1975637942}
   m_Layer: 9
   m_Name: Lava Djin (17)
   m_TagString: Enemy
@@ -8613,21 +8292,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1975637942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975637941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &1975637943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8778,7 +8442,6 @@ GameObject:
   - component: {fileID: 2002894649}
   - component: {fileID: 2002894648}
   - component: {fileID: 2002894647}
-  - component: {fileID: 2002894646}
   m_Layer: 9
   m_Name: Lava Djin (8)
   m_TagString: Enemy
@@ -8786,21 +8449,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2002894646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002894645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &2002894647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8963,7 +8611,6 @@ GameObject:
   - component: {fileID: 2082398981}
   - component: {fileID: 2082398980}
   - component: {fileID: 2082398979}
-  - component: {fileID: 2082398978}
   m_Layer: 9
   m_Name: Lava Djin (20)
   m_TagString: Enemy
@@ -8971,21 +8618,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2082398978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082398977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d342b59daf76342bff53e5451abeea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDir: {x: 1, y: 0}
-  moveSpeed: 3
-  paceDuration: 0.2
 --- !u!61 &2082398979
 BoxCollider2D:
   m_ObjectHideFlags: 0
