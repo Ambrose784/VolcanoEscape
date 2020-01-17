@@ -988,7 +988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDir: {x: 1, y: 0}
   moveSpeed: 1
-  paceDuration: 1
+  paceDuration: 2
 --- !u!60 &299519886
 PolygonCollider2D:
   m_ObjectHideFlags: 0
