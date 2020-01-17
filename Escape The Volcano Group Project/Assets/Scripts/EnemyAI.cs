@@ -4,72 +4,41 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public Transform player;
-    public float chaseSpeed = 2f;
-    public float paceSpeed = 1.5f;
-    public float paceDistance = 3.0f;
-    public float chaseTriggerDistance= 5.0f;
-    public Vector2 paceDirection;
-    Vector3 startPosition;
-    bool home = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        startPosition = transform.position;
-
-    }
-
-    // Update is called once per frame
+    #region VARIABLES
+    [Header("Movement Settings")]
+    public Vector2 moveDir;
+    public int moveSpeed;
+    public int paceDuration;
+    float moveTimer = 0;
+    GameObject player;
+    Vector2 chaseDirection;
+    bool left;
+    #endregion
+    //UNITY FUNCTIONS
+    #region UPDATE FUNCTION
     void Update()
     {
-        Vector2 chaseDirection = new Vector2(player.position.x - transform.position.x,
-            player.position.y - transform.position.y);
-        if (chaseDirection.magnitude < chaseTriggerDistance)
+        //shootTimer += Time.deltaTime;
+        if (GetComponent<Rigidbody2D>().bodyType != RigidbodyType2D.Static)
         {
-            Chase();
-        }else if (!home)
-        {
-            GoHome();
+            moveTimer += Time.deltaTime;
+            GetComponent<Rigidbody2D>().velocity = moveDir * moveSpeed;
         }
-        else
-        {
-            Pace();
-        }
+        if (moveTimer > paceDuration)
+            PaceSwitch();
     }
-    void Chase()
+    #endregion
+    //ENEMY AI FUNCTIONS
+    #region PACE SWITCH FUNCTION
+    void PaceSwitch()
     {
-        home = false;
-        Vector2 chaseDirection = new Vector2(player.position.x - transform.position.x,
-            player.position.y - transform.position.y);
-        chaseDirection.Normalize();
-        transform.up = chaseDirection;
-        GetComponent<Rigidbody2D>().velocity = chaseDirection * chaseSpeed;
+        left = !left;
+        moveDir *= -1;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+        moveTimer = 0;
     }
-    void GoHome()
-    {
-        Vector2 homeDirection = new Vector2(startPosition.x - transform.position.x,
-            startPosition.y - transform.position.y);
-        if(homeDirection.magnitude < 0.2f)
-        {
-            transform.position = startPosition;
-            home = true;
-        }
-        else
-        {
-            homeDirection.Normalize();
-            transform.up = homeDirection;
-            GetComponent<Rigidbody2D>().velocity = homeDirection * paceSpeed;
-        }
-    }
-    void Pace()
-    {
-        Vector3 displacement = transform.position - startPosition;
-        if(displacement.magnitude >= paceDistance)
-        {
-            paceDirection = -displacement;
-        }
-        paceDirection.Normalize();
-        transform.up = paceDirection;
-        GetComponent<Rigidbody2D>().velocity = paceDirection * paceSpeed;
-    }
+    #endregion
 }
+
