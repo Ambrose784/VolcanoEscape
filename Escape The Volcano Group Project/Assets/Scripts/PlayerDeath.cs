@@ -15,6 +15,13 @@ public class PlayerDeath: MonoBehaviour
          {
          SceneManager.LoadScene("Level 2");
          }
-
+         if (collision.gameObject.tag == "portal 2")
+        {
+            SceneManager.LoadScene("Level 3");
+        }
+         if (collision.gameObject.tag == "portal 3")
+        {
+            SceneManager.LoadScene("Winner!");
+        }
     }
 }
