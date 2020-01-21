@@ -15,5 +15,6 @@ public class PlayerDeath: MonoBehaviour
          {
          SceneManager.LoadScene("Level 2");
          }
+
     }
 }
